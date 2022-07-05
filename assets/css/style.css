@@ -83,27 +83,27 @@ main {
 
 /* ---Product Images */
 .product-1 {
-  background-image: url("/assets/img/ring003.png");
+  background-image: url("./assets/img/ring003.png");
 }
 
 .product-2 {
-  background-image: url("/assets/img/ring002.png");
+  background-image: url("./assets/img/ring002.png");
 }
 
 .product-3 {
-  background-image: url("/assets/img/ring001.png");
+  background-image: url("./assets/img/ring001.png");
 }
 
 .product-4 {
-  background-image: url("/assets/img/ring006.png");
+  background-image: url("./assets/img/ring006.png");
 }
 
 .product-5 {
-  background-image: url("/assets/img/ring005.png");
+  background-image: url("./assets/img/ring005.png");
 }
 
 .product-6 {
-  background-image: url("/assets/img/ring004.png");
+  background-image: url("./assets/img/ring004.png");
 }
 
 /* ---Price Tag */
