@@ -39,10 +39,8 @@ ul {
 }
 
 li {
-  display: inline-block;
-  justify-content: space-evenly;
   list-style-type: none;
-  padding: 0.6rem;
+  padding: 0.5rem;
 }
 
 /* ---HEADER */
@@ -75,8 +73,7 @@ main {
 
 .flex-container div {
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 10rem;
+  height: 14rem;
 }
 
 /* ---Logo */
@@ -111,7 +108,7 @@ main {
 
 /* ---Price Tag */
 .price-tag {
-  padding: 2rem;
+  padding: 11em 0 1em 16em;
 }
 
 .price-tag::before {
@@ -119,26 +116,21 @@ main {
 }
 
 /* ---RESPONSIBILITY */
-
 .flex-item-header {
-    margin: auto;
-}
-.flex-item-left {
-  flex: 30%;
-  padding: 10px;
-  width: 3em;
+  margin: auto;
 }
 
+.flex-item-left,
 .flex-item-right {
+  background-size: contain;
   flex: 30%;
-  padding: 10px;
   width: 3em;
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 780px) {
   .flex-item-right,
-  .flex-item-left 
+  .flex-item-left, 
   .flex-item-header {
     flex: 100%;
   }
