@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* font-family: 'Lato', sans-serif; */
+
+/* ---GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.7rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  margin: 0 5rem 0 auto;
+}
+
+li {
+  display: inline-block;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0.6rem;
+}
+
+/* ---HEADER */
+header {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+/* ---Navigation */
+nav {
+  display: flex;
+  margin: 0 4rem;
+}
+
+/* ---MAIN CONTENT */
+main {
+  background-color: #d9e8e5;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 12rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.flex-container div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+}
+
+/* ---Logo */
+.logo {
+  margin: 1rem 1rem 1rem 5rem;
+}
+
+/* ---Product Images */
+.product-1 {
+  background-image: url("/assets/img/ring003.png");
+}
+
+.product-2 {
+  background-image: url("/assets/img/ring002.png");
+}
+
+.product-3 {
+  background-image: url("/assets/img/ring001.png");
+}
+
+.product-4 {
+  background-image: url("/assets/img/ring006.png");
+}
+
+.product-5 {
+  background-image: url("/assets/img/ring005.png");
+}
+
+.product-6 {
+  background-image: url("/assets/img/ring004.png");
+}
+
+/* ---Price Tag */
+.price-tag {
+  padding: 2rem;
+}
+
+.price-tag::before {
+  content: "$ ";
+}
+
+/* ---RESPONSIBILITY */
+
+.flex-item-header {
+    margin: auto;
+}
+.flex-item-left {
+  flex: 30%;
+  padding: 10px;
+  width: 3em;
+}
+
+.flex-item-right {
+  flex: 30%;
+  padding: 10px;
+  width: 3em;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 780px) {
+  .flex-item-right,
+  .flex-item-left 
+  .flex-item-header {
+    flex: 100%;
+  }
+}
